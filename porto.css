@@ -1,0 +1,201 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.intro{
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgb(36, 36, 36), rgb(71, 70, 70));
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+      position: relative;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 1);
+       font-family: 'Poppins', sans-serif;
+       
+}
+body{
+    background-color: #eff1f3;
+}
+
+
+.intro img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    
+}
+.herf{
+   background-color: white;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-bottom: 50px;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-radius: 15px;
+}
+.herf a{
+     text-decoration: none;
+      font-weight: 600;
+      font-size: 1em;
+      transition: 0.3s;
+      padding: 6px 10px;
+      border-radius: 8px;
+}
+ .herf a:hover {
+      background: rgb(71, 70, 70);
+      color: white;
+    }
+    nav{
+        color:rgb(71, 70, 70);
+      border-left: 5px solid rgb(71, 70, 70);
+      padding-left: 12px;
+      margin-bottom: 20px;
+      font-size: 50px;
+      font-weight: 450;
+       font-family: 'Poppins', sans-serif;
+    }
+    .d{
+         background: #ffffff;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 40px;
+      margin-left: 300px;
+      transition: 0.3s;
+    }
+    .d:hover {
+      transform: translateY(-5px);
+    }
+    section{
+        width: 75%;
+    }
+    .d p{
+         font-family: 'Poppins', sans-serif;
+    }
+    .project{
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+      border-radius: 15px;
+      padding: 5px;
+      text-align: center;
+      transition: 0.3s;
+      background-color: #eff1f3;
+
+    }
+    .l :hover {
+      transform: translateY(-5px);
+    }
+
+    .l {
+        display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     gap: 20px;
+     
+    }
+    .l h3{
+        color: rgb(71, 70, 70);
+    }
+   
+    
+.project img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px; 
+}
+.d ul{
+     list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+}
+.d ul li{
+     background: linear-gradient(135deg, rgb(91, 90, 90), rgb(153, 151, 151));
+      border: 1px solid #d0e7ff;
+      border-radius: 10px;
+      text-align: center;
+      padding: 12px;
+      font-weight: 600;
+      color: black;
+}
+
+    footer {
+      background-color: #0a0f1f;
+      color: white;
+      text-align: center;
+      padding: 25px 0;
+      font-size: 0.95em;
+      margin-top: 60px;
+      border-radius: 15px;
+    }
+    
+     html {
+      scroll-behavior: smooth;
+    }
+    #c{
+        text-decoration: none;
+        background-color: rgb(71, 70, 70);
+        color :white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+  .d h2{
+    text-align: center;
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+
+    @media (max-width: 600px) {
+      
+      section {
+        
+        width: 100%;
+      }
+      .d{
+         background: #ffffff;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 40px;
+      transition: 0.3s;
+    }
+     #c{
+        text-decoration: none;
+        background-color: rgb(71, 70, 70);
+        color :white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+     @media (max-width: 1000px) {
+      
+      section {
+        
+        width: 85%;
+      }
+      .d{
+         background: #ffffff;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 40px;
+      margin-left: 20px;
+      transition: 0.3s;
+    }
+     #c{
+        text-decoration: none;
+        background-color: rgb(71, 70, 70);
+        color :white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+  
+      
+    }
